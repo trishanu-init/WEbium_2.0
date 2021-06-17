@@ -1,0 +1,28 @@
+*{
+    background-color: sandybrown;
+}
+
+.wrapper{
+    border: 2px solid black;
+    width : 30%;
+    padding : 20px;
+    text-align: center;
+    margin-top: 20%;
+    margin-left : 30%;
+    box-shadow: 10px 10px 30px slateblue;
+}
+
+#count{
+    font-size: 60px;
+}
+
+#increase, #decrease, #reset{
+    padding : 10px;
+    background-color: salmon;
+    color : white;
+}
+
+#increase:hover, #decrease:hover, #reset:hover{
+    background-color: white;
+    color : black;
+}
